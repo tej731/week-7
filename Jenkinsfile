@@ -5,7 +5,7 @@ pipeline{
 	        steps{
                 echo "Cloning repo"
                 git url:"https://github.com/tej731/Week7.git",
-                branch:'master'
+                branch:'main'
 	        }
 	    }
 	    stage('Build'){
